@@ -45,7 +45,7 @@ csv_writer.writeheader()
 for c in list_area_id:
     page = 0
     while True:
-        print(f'-------------------------正在爬取城市编码为{c}的第{page + 1}页数据-------------------------')
+        print(f'-------------------------正在爬取城市{c}的第{page + 1}页数据-------------------------')
         sleep(random.randint(1, 3))
         url = 'https://map.baidu.com/@12575211,3253582,12z?'
         data = {
